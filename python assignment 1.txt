@@ -1,1 +1,17 @@
-hi ashish here
+
+# calulator using if-else-if condition .
+operator=(input('enter the operator which you want to perform(%,*,-,+,/9): '))
+num1=int(input("enter the two nos:"))
+num2=int(input("enter the two nos:"))
+if (operator=="+"):
+  print("addition is:",num1+num2)
+elif(operator=="-"):
+  print("subtracion is:",num1-num2)
+elif(operator=="*"):
+  print("multiplication is:",num1*num2)
+elif(operator=="/"):
+  print("division is:",num1/num2)
+elif(operator=="%"):
+  print("modulo is:",num1%num2)
+else:
+  print("this operator is not found in the list !!! ",operator)
